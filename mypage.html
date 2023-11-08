@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>마이 페이지</title>
+    <style>
+      /* body*/
+      #wholebody {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: url('img/st2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: -10px;
+      }
+
+      .mypage-container {
+        opacity: 0.9;
+        padding: 20px 40px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: left;
+        background-color: #333;
+        width: 1000px;
+      }
+
+      h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+        color: white;
+        text-align: center;
+      }
+
+      .button-group {
+        text-align: center;
+        margin: 100px 0;
+      }
+      .edit {
+      }
+      .like {
+      }
+      .list {
+      }
+
+      /* body 끝 */
+    </style>
+    <link
+      rel="stylesheet"
+      href=""
+    />
+  </head>
+  <body>
+    <form id="wholebody">
+      <!-- body 시작 -->
+      <div class="mypage-container">
+        <h2>마이페이지</h2>
+        <form>
+          <div class="button-group">
+            <button
+              type="button"
+              class="edit"
+            >
+              회원 정보 수정
+            </button>
+          </div>
+          <div class="button-group">
+            <button
+              type="button"
+              class="like"
+            >
+              찜 목록
+            </button>
+          </div>
+          <div class="button-group">
+            <button
+              type="button"
+              class="list"
+            >
+              자유 게시판
+            </button>
+          </div>
+        </form>
+      </div>
+    </form>
+  </body>
+</html>
